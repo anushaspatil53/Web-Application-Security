@@ -1,0 +1,90 @@
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #0e0e0e;
+}
+
+/* Header styling */
+header {
+    color: #c20a0a;
+    text-align: center;
+}
+
+/* Unordered list for navigation */
+ul {
+    list-style: none;
+    padding: 0;
+    background: #333;
+    overflow: hidden;
+}
+
+ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+ul li a:hover {
+    background: #0073e6;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Heading styles */
+h2, h3 {
+    color: rgb(160, 18, 77);
+}
+
+/* Paragraph styles */
+p {
+    color: rgb(15, 97, 70);
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    background: white;
+}
+
+table th, table td {
+    text-align: left;
+    color: rgb(8, 102, 102);
+    border: 1px solid #080808;
+}
+
+table th {
+    background: #0073e6;
+    color: white;
+}
+
+
+/* Image styling */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Video and audio styling */
+video, audio {
+    display: block;
+    max-width: 90%;
+}
+
+/* Iframe styling */
+iframe {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+}
+
